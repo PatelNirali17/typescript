@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>let-const</h1>
+
+
+    <script>
+    // let variable
+    let greeting = "say Hi";
+   let times = 4;
+
+   if (times > 3) {
+        let hello = "say Hello instead";
+        console.log(hello);//"say Hello instead"
+    }
+//    console.log(hello) // hello is not defined
+    
+   let greet = "say Hi";
+    // let greet = "say Hello instead";
+
+    let greetings= "say Hi";
+    if (true) {
+        let greetings = "say Hello instead";
+        console.log(greetings);//"say Hello instead"
+    }
+    console.log(greetings);//"say Hi"
+
+
+    //const variable
+
+    const refrence = "say Hi";
+    // refrence = "say Hello instead";//error : Assignment to constant variable. 
+
+    const some = "say Hi";
+    // const some = "say Hello instead";
+    
+    
+    </script>
+
+
+
+</body>
+</html>
